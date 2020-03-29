@@ -10,7 +10,6 @@ class SysConfigOpenGLConan(ConanFile):
     url = "https://github.com/bincrafters/conan-sysconfig-opengl"
     homepage = "https://www.opengl.org/"
     license = "MIT"
-    exports = ["LICENSE.md"]
     exports_sources = ["LICENSE"]
     settings = ("os",)
 
